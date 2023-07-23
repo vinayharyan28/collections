@@ -1,8 +1,6 @@
-package collectionsframeworks;
-
+package collectionsframeworks.Iterableinterface;
 import java.util.Iterator;
-import java.util.Spliterator;
-import java.util.function.Consumer;
+
 
 public class OurGenericList<T> implements Iterable{
     private T[] items;
@@ -35,11 +33,13 @@ public class OurGenericList<T> implements Iterable{
 
         @Override
         public boolean hasNext(){
+            System.out.println("has next called");
             return index < list.size;
         }
 
         @Override
         public T next(){
+            System.out.println("next called");
             return list.items[index ++];
         }
     }
