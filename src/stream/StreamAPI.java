@@ -6,8 +6,7 @@ import java.util.stream.Collectors;
 /**
  * Certainly! The stream API in java provides a concise and expressive way to process collections of data.
  * It allows you to perform operation on a sequence of elements, such as filtering, mapping, and reducing, in a functional style.
-
- * */
+ */
 public class StreamAPI {
     public static void main(String[] args) {
 
@@ -47,12 +46,5 @@ public class StreamAPI {
         System.out.println(result);
         // Multiple stream operations (`filter` and `map`) are chained together to perform a sequence of transformations on the elements.
         // The final result is collected into a new list.
-
-
-
-
-
-
-
     }
 }
